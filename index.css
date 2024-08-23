@@ -1,0 +1,74 @@
+/* Write your code here. */
+
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.league-bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.title {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.team-image-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-logo {
+  height: 170px;
+  width: 170px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .team-logo {
+    height: 260px;
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .team-logo {
+    height: 170px;
+    width: 170px;
+  }
+}
+
+/*
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+*/
